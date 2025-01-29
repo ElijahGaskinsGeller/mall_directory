@@ -67,7 +67,7 @@ mapContainer.appendChild(mapRenderer.domElement);
 
 let panelRenderer = new THREE.WebGLRenderer();
 panelRenderer.setSize(panelTargetWidth, panelTargetHeight);
-panelContainer.appendChild(panelRenderer.domElement);
+//panelContainer.appendChild(panelRenderer.domElement);
 
 
 
@@ -943,7 +943,7 @@ function animate(time) {
 
 	mapRenderer.render(mapScene, mapCamera);
 
-	panelRenderer.render(panelScene, panelCamera);
+	//panelRenderer.render(panelScene, panelCamera);
 
 
 	//panelRenderer.setRenderTarget(monitorScreenTexture);
